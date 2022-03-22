@@ -113,24 +113,24 @@ def cgol_auto():
 
 def savegrid():
     global grid
-    np.savetxt(r"./Downloads/Conways Game of life/example.txt",grid)
+    np.savetxt(r"./Downloads/Conways-Game-of-Life-main/example.txt",grid)
 
 
 
 def loadgrid(index):
     global grid
     if(index ==0):
-        grid = np.loadtxt(r"./Downloads/Conways Game of life/example.txt").tolist()
+        grid = np.loadtxt(r"./Downloads/Conways-Game-of-Life-main/example.txt").tolist()
     elif(index ==1):
-        grid = np.loadtxt(r'./Downloads/Conways Game of life/Ship/example.txt').tolist()
+        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Ship/example.txt').tolist()
     elif(index ==2):
-        grid = np.loadtxt(r'./Downloads/Conways Game of life/Ship2/example.txt').tolist()
+        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Ship2/example.txt').tolist()
     elif(index ==3):
-        grid = np.loadtxt(r'./Downloads/Conways Game of life/Diamond/example.txt').tolist()
+        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Diamond/example.txt').tolist()
     elif(index ==4):
-        grid = np.loadtxt(r'./Downloads/Conways Game of life/A for all/example.txt').tolist()
+        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/A for all/example.txt').tolist()
     elif(index ==5):
-        grid = np.loadtxt(r'./Downloads/Conways Game of life/Martins/example.txt').tolist()
+        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Martins/example.txt').tolist()
 
 
 while not done:
