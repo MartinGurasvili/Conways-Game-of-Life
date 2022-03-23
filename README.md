@@ -40,7 +40,10 @@ To load in my premade shapes press number - to load shapes 1 press - 1
 To start the visualisation press Enter - to pause it press Space
 <br></br>
 <br>
-<img style="width:60%"  alt="gif soon" src="hhttps://user-images.githubusercontent.com/76784461/159136955-3adafaa5-1922-4c33-9ecc-b028b307ed4a.gif">
+<img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159666134-0afde3f8-14e1-4eef-8eb9-e495b8d8012f.gif">
+
+<h2>Next Step Iteration</h2>
+To visualise the next generation- press Right Arrow
 
 <h2>Design Tool</h2>
 Holding Down the left mouse button will draw blocks
@@ -50,7 +53,8 @@ Holding Down the right mouse button will remove any blocks
 
  <br></br>
  <br>
-<img style="width:60%"  alt="gif soon" src="hhttps://user-images.githubusercontent.com/76784461/159135374-f186cacc-2e4a-45ba-b278-11cda6e0b93e.gif">
+<img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159666789-e92fd767-3146-4d0d-a151-72cca30ea95c.gif">
+
 
 <h2>Reset Tool</h2>
 To refresh the whole grid - press R
@@ -62,7 +66,7 @@ To save your shape - press S - this will save it into a file - so can be loaded 
 To load in your shape - press L
  <br></br>
  <br> 
-<img style="width:60%"  alt="gif soon" src="hhttps://user-images.githubusercontent.com/76784461/159137534-8dc8ff96-44fa-48a5-94b4-2ff41f3eadc7.gif">
+<img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159667300-77fadb14-7fce-4fbd-b109-39fa7b8e67c0.gif">
 
 
 
