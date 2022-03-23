@@ -17,10 +17,10 @@
     <br/>
 </div>
 <div align="center">
-    <img style="width:60%"  alt="gif soon" src="hhttps://user-images.githubusercontent.com/76784461/159134926-d52bebd6-bf70-42af-9a73-ad95961199c2.gif">
+    <img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159665287-5117dea1-3268-407a-af25-64a1c63a76cf.gif">
   </div>
   
-  
+
   <h1 align="center" >Features </h1>
 <br></br>
 
