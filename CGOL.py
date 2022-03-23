@@ -1,12 +1,6 @@
-from itertools import count
-from tkinter import N
 import pygame
 import numpy as np
-from queue import PriorityQueue
-import queue
-import os
 import sys
-import argparse
 import time
 
 #colors
@@ -96,7 +90,6 @@ def cgol_auto():
             print("done")
             exitt = False
             break
-        print("wag1")
         cgol()
         for row in range(len(grid)):
             for column in range(len(grid[row])):
