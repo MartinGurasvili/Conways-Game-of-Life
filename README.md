@@ -10,7 +10,7 @@
     <br>
     This is a visualisation tool of Conway's Game of Life written in python
   <br>
-    if you make any cool mazes please feel free to contribute
+    if you make any cool patterns please feel free to contribute
     <br />
     <br>
     <a href="https://github.com/MartinGurasvili/Conways-Game-of-Life/archive/refs/heads/main.zip"><h3>Try it now</h3></a>
