@@ -13,13 +13,15 @@
     if you make any cool patterns please feel free to contribute
     <br />
     <br>
-    <a href="https://github.com/MartinGurasvili/Conways-Game-of-Life/archive/refs/heads/main.zip"><h3>Try it now</h3></a>
+    <a href="https://github.com/MartinGurasvili/Conways-Game-of-Life/archive/refs/heads/main.zip"><strong>Try it now</strong></a>
     <br/>
 </div>
 <div align="center">
     <img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159665287-5117dea1-3268-407a-af25-64a1c63a76cf.gif">
-  </div>
+  <br>
   
+  </div>
+  <br>
 
   <h1 align="center" >Features </h1>
 <br></br>
