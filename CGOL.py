@@ -1,5 +1,7 @@
 import pygame
 import numpy as np
+from pathlib import Path
+import os
 import sys
 import time
 
@@ -90,6 +92,7 @@ def cgol_auto():
             print("done")
             exitt = False
             break
+        print("wag1")
         cgol()
         for row in range(len(grid)):
             for column in range(len(grid[row])):
@@ -106,24 +109,26 @@ def cgol_auto():
 
 def savegrid():
     global grid
-    np.savetxt(r"./Downloads/Conways-Game-of-Life-main/example.txt",grid)
+    np.savetxt((os.fspath(Path(__file__).resolve().parent / "example.txt")),grid)
 
 
 
 def loadgrid(index):
     global grid
     if(index ==0):
-        grid = np.loadtxt(r"./Downloads/Conways-Game-of-Life-main/example.txt").tolist()
+        grid = np.loadtxt((os.fspath(Path(__file__).resolve().parent / "example.txt"))).tolist()
     elif(index ==1):
-        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Ship/example.txt').tolist()
+        grid = np.loadtxt(os.fspath(Path(__file__).resolve().parent / "Ship/example.txt")).tolist()
     elif(index ==2):
-        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Ship2/example.txt').tolist()
+        grid = np.loadtxt(os.fspath(Path(__file__).resolve().parent / "Ship2/example.txt")).tolist()
     elif(index ==3):
-        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Diamond/example.txt').tolist()
+        grid = np.loadtxt(os.fspath(Path(__file__).resolve().parent / "Diamond/example.txt")).tolist()
+        
     elif(index ==4):
-        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/A for all/example.txt').tolist()
+        grid = np.loadtxt(os.fspath(Path(__file__).resolve().parent / "A for all/example.txt")).tolist()
     elif(index ==5):
-        grid = np.loadtxt(r'./Downloads/Conways-Game-of-Life-main/Martins/example.txt').tolist()
+        grid = np.loadtxt(os.fspath(Path(__file__).resolve().parent / "Martins/example.txt")).tolist()
+    
 
 
 while not done:
