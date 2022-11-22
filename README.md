@@ -13,8 +13,10 @@
     if you make any cool patterns please feel free to contribute
     <br />
     <br>
-    <a href="https://github.com/MartinGurasvili/Conways-Game-of-Life/archive/refs/heads/main.zip"><strong>Try it now</strong></a>
+    <a href="https://github.com/MartinGurasvili/Conways-Game-of-Life/releases/download/v1.0.0/Conways.Game.of.Life.app.zip"><strong><img width="20px" height="20px"   alt="apple" src="https://user-images.githubusercontent.com/76784461/154564937-57c93aa0-69f8-497c-97d6-33b1d7d411e0.png"> Install Now</strong></a>
+    <!--<p><a href="https://github.com/MartinGurasvili/Calculator/releases/download/v2.0.0w/Calculator.exe"><strong><img width="20px" height="20px"  alt="win" src="https://pnggrid.com/wp-content/uploads/2021/06/Windows-11-Icon-Logo.png"> Install Now</strong></a>-->
     <br/>
+    <br><br>
 </div>
 <div align="center">
     <img style="width:60%"  alt="gif soon" src="https://user-images.githubusercontent.com/76784461/159665287-5117dea1-3268-407a-af25-64a1c63a76cf.gif">
