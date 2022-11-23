@@ -14,7 +14,11 @@ pygame.init()
 size = (716, 716)
 screen = pygame.display.set_mode(size)
 
+
 pygame.display.set_caption("Conway's Game of Life")
+programIcon = pygame.image.load((os.fspath(Path(__file__).resolve().parent / 'icon.png')))
+
+pygame.display.set_icon(programIcon)
 
 width = 15
 height = 15
@@ -81,7 +85,6 @@ def cgol_auto():
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    print("done")
                     exitt = False
                     break
         count = 0
@@ -89,10 +92,8 @@ def cgol_auto():
             if(1 not in grid[i]):
                 count+=1
         if(count==len(grid)):
-            print("done")
             exitt = False
             break
-        print("wag1")
         cgol()
         for row in range(len(grid)):
             for column in range(len(grid[row])):
@@ -137,28 +138,20 @@ while not done:
             done = True
         elif event.type == pygame.KEYDOWN:
              if event.key == pygame.K_ESCAPE:
-                    print("Exit")
                     pygame.quit()
              if event.key == pygame.K_s:
-                 print("Saving Shape")
                  savegrid()
              if event.key == pygame.K_l:
-                 print("Loading Shape")
                  loadgrid(0)
              if event.key == pygame.K_1:
-                 print("Loading Shape 1")
                  loadgrid(1)
              if event.key == pygame.K_2:
-                 print("Loading Shape 2")
                  loadgrid(2)
              if event.key == pygame.K_3:
-                 print("Loading Shape 3")
                  loadgrid(3)
              if event.key == pygame.K_4:
-                 print("Loading Shape 4")
                  loadgrid(4)
              if event.key == pygame.K_5:
-                 print("Loading Shape 5")
                  loadgrid(5)
              if event.key == pygame.K_RETURN:
                 cgol_auto()
